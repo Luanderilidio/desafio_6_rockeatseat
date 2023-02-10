@@ -11,24 +11,24 @@ export default function Home() {
         <div className="w-full flex items-center justify-between">
           <div>
             <p className="text-left text-gray-500">Voo</p>
-            <p className="font-semibold text-lg">RS955</p>
+            <p className="font-semibold text-black text-lg ">RS955</p>
           </div>
           <div>
             <p className="text-right text-gray-500">Data</p>
-            <p className="font-semibold text-lg">23/05/2023</p>
+            <p className="font-semibold text-black text-lg">23/05/2023</p>
           </div>
         </div>
         <div className="w-full flex items-center justify-between">
           <div>
             <p className="text-left text-gray-500 text-sm">Cuiabá, BR</p>
-            <p className="font-semibold text-left text-5xl">RGU</p>
-            <p className="text-left ">13:10</p>
+            <p className="font-semibold text-left text-black text-5xl">RGU</p>
+            <p className="text-left text-black ">13:10</p>
           </div>
           <img src={Airplane} />
           <div>
             <p className="text-right text-gray-500 text-sm">São Paulo, BR</p>
-            <p className="font-semibold text-right text-5xl">SFO</p>
-            <p className="text-right ">17:30</p>
+            <p className="font-semibold text-right text-5xl text-black">SFO</p>
+            <p className="text-right text-black ">17:30</p>
           </div>
         </div>
       </div>
@@ -37,11 +37,11 @@ export default function Home() {
         <div className="w-full flex items-center justify-between">
           <div>
             <p className="text-left text-gray-500">Passageira</p>
-            <p className="font-semibold text-lg">Brenda Caroline</p>
+            <p className="font-semibold text-black text-lg">Brenda Caroline</p>
           </div>
           <div>
             <p className="text-right text-gray-500">Assento</p>
-            <p className="font-semibold text-lg text-right">28A</p>
+            <p className="font-semibold text-black text-lg text-right">28A</p>
           </div>
         </div>
       </div>
@@ -49,26 +49,26 @@ export default function Home() {
         <div className="w-full flex justify-between ">
           <div className="flex flex-col gap-3">
             <div>
-              <p className="text-gray-500">Embarque</p>
+              <p className="text-gray-500 ">Embarque</p>
               <p className="text-center text-white bg-violet-800 font-semibold p-1 rounded-lg">
                 13:00
               </p>
             </div>
             <div>
               <p className="text-gray-500">Terminal</p>
-              <p className="font-semibold">2</p>
+              <p className="font-semibold text-black">2</p>
             </div>
             <div>
               <p className="text-gray-500">Portão</p>
-              <p className="font-semibold">15</p>
+              <p className="font-semibold text-black">15</p>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center gap-2">
             <img className="flex-1" src={QrCode} />
-            <p className="text-sm">Grupo de embarque: 3</p>
+            <p className="text-sm text-black">Grupo de embarque: 3</p>
           </div>
         </div>
-        <p className="text-sm">
+        <p className="text-sm text-black">
           <strong>Atenção:</strong> o portão fecha 16:45
         </p>
       </div>
